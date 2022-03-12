@@ -1,0 +1,99 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(248, 248, 248);
+}
+
+.link {
+	color: rgb(79, 148, 205);
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	align-items: stretch;
+	height: 10%;
+}
+
+header div {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	padding: 0 3vmin;
+}
+
+#systemActions {
+	display: flex;
+	justify-content: end;
+}
+
+#queryForm {
+	width: 100%;
+}
+
+#searchWikiInput {
+	width: 40%;
+	padding: 1vmin 0;
+	background-color: rgb(252, 252, 252);
+	border: 1px solid darkgray;
+	border-radius: 2%;
+	padding: 1%;
+}
+
+header li {
+	display: inline;
+	list-style-type: none;
+	margin: 1vmin;
+}
+
+#content {
+	background-color: white;
+	border: 1px solid lightgray;
+	padding: 1vmin;
+}
+
+#contentOptions div {
+	display: flex;	
+	justify-content: space-between;
+}
+
+#contentOptions li {
+	list-style-type: none;
+	display: inline;
+	padding: 1vmin;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+.tipCard {
+	border: 1px solid lightgray;
+	background-color: honeydew;
+	padding: 1vmin;
+}
+
+.normalCard {
+	border: 1px solid lightgray;
+	background-color: rgb(248, 248, 248);
+	padding: 1vmin;
+}
+
+#footerContainer {
+	width: 70%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+	#contentArea {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: 2vmax 0;
+	}
+	main {
+		width: 70%;
+	}
+}

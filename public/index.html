@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wiki</title>
+	<link rel="stylesheet" href="../src/index.css">
+</head>
+<body>
+	<header>
+		<!-- Search Wiki form. -->
+		<div id="systemQuery">
+			<form action="" id="queryForm"><input id="searchWikiInput" type="text" placeholder="Search wiki"></form>
+		</div>
+
+		<!-- System actions. -->
+		<div id="systemActions">
+			<ul>
+				<li><a href="#" class="link">Create account</a></li>
+				<li><a href="#" class="link">Log In</a></li>
+			</ul>
+		</div>
+	</header>	
+
+	<div id="contentArea">
+		<main>
+			<!-- Navigation links on the top of content card. -->
+			<div id="contentOptions">
+				<div>
+					<div>
+						<ul>
+							<li><a href="#" class="link">Page</a></li>
+							<li><a href="#" class="link">Discussion</a></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><a href="#" class="link">Read</a></li>
+							<li><a href="#" class="link">View source</a></li>
+							<li><a href="#" class="link">View history</a></li>
+						</ul>
+					</div>
+					</div>
+			</div>
+
+			<!-- Content. -->
+			<div id="content">
+				<!-- Content preamble -->
+				<div>
+					<h2>Some filling text</h2>
+					<hr>
+				</div>
+
+				<!-- Content	 -->
+				<div>
+					<!-- Introduction. -->
+					<div>
+						<h3>Content</h3>	
+						<hr>
+						<p>Some information about it.</p>
+						
+						<div class="tipCard">
+							<p><strong>Tip:</strong> A card with a tip about the given content.</p>
+						</div>
+					</div>	
+
+					<!-- Sections of the given content. -->
+					<section class="contentSection">
+						<h4>Content section.</h4>
+						<p>Information concerning the given section.</p>
+					</section>
+
+					<section class="contentSection">
+						<h4>Content section.</h4>
+						<p>Information concerning the given section.</p>
+					</section>
+				</div>
+
+				<!-- Additional information. -->
+				<div>
+					<h4>See also</h4>	
+					<hr>
+					<ul>
+						<li><span class="link">Hyperlink</span> is a link that leads to another web page.</li>
+						<li><span class="link">Hypertext</span> is a document connected to other ones by hyperlinks.</li>
+					</ul>
+
+					<div class="normalCard"><a href="" class="link">Categories: Category One | Category Two</a></div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<footer>
+		<div id="footerContainer">
+			<hr>
+			<p>This page was created on 12 March 2022.</p>
+		</div>
+	</footer>
+</body>
+</html>
